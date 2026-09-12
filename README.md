@@ -1,1 +1,1 @@
-# rsschool-cv
+https://onlykozbeet.github.io/rsschool-cv/cv
