@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,5 +7,76 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="cv">
+        <header class="cv__header">
+            <img class="cv__avatar" src="avatar.svg" alt="avatar">
+            <h1 class="cv__title">Константин А</h1>
+            <nav class="cv__navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="#contacts">Контакты</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#about">О себе</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#skills">Навыки</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#code">Примеры кода</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#experience">Опыт работы</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="#education">Образование</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="cv__main">
+            <section class="cv-section" id="about">
+                <h2 class="cv-section__title">О себе</h2>
+                <p class="cv-section__text">Сильные стороны: быстрая обучаемость, внимательность к деталям и ответственность. Сейчас активно изучаю современный JavaScript и пишу учебные проекты.</p>
+            </section>
+
+            <section class="cv-section" id="contacts">
+                <h2 class="cv-section__title">Контакты</h2>
+                <ul class="contact-list">
+                    <li class="contact-list__item"><span class="contact-list__label">Телефон:</span> +48 *** ** **</li>
+                    <li class="contact-list__item"><span class="contact-list__label">Email:</span> <a href="mailto:k****@gmail.com">k****@gmail.com</a></li>
+                    <li class="contact-list__item"><span class="contact-list__label">Город:</span> Вроцлав</li>
+                </ul>
+            </section>
+
+            <section class="cv-section" id="skills">
+                <h2 class="cv-section__title">Навыки</h2>
+                <ul class="skills-list">
+                    <li class="skills-list__item">JavaScript, HTML5, CSS3</li>
+                    <li class="skills-list__item">Node.js (базовый уровень)</li>
+                    <li class="skills-list__item">Git, VS Code, Chrome DevTools, Postman</li>
+                </ul>
+            </section>
+
+            <section class="cv-section cv-section--code" id="code">
+                <h2 class="cv-section__title">Пример кода</h2>
+                <pre class="code-example"><code>const getUsers = async () =&gt; {
+  const res = await fetch('https://jsonplaceholder.typicode.com/users');
+  return await res.json();
+};</code></pre>
+            </section>
+
+            <section class="cv-section" id="experience">
+                <h2 class="cv-section__title">Опыт работы</h2>
+                <p class="cv-section__text">Учебный проект: <a href="https://onlykozbeet.github.io/rsschool-cv/">CV</a>.</p>
+            </section>
+
+            <section class="cv-section cv-section--columns" id="education">
+                <div>
+                    <h2 class="cv-section__title">Образование</h2>
+                    <p class="cv-section__text">Высшее. Машиностроение.</p>
+                </div>
+                <div>
+                    <h2 class="cv-section__title">Английский язык</h2>
+                    <p class="cv-section__text">Уровень B2.</p>
+                </div>
+            </section>
+        </main>
+        <footer class="cv__footer">
+            <a class="cv__github" href="https://github.com/onlykozbeet">GitHub</a>
+            <span class="cv__year">2026</span>
+            <a class="cv__course" href="#">
+                <img class="cv__course-image" src="rs-school-logo.svg" alt="RS School logo">
+            </a>
+        </footer>
+    </div>
 </body>
 </html>
