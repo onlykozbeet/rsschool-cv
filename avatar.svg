@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
+  <title id="title">Аватар Константина А</title>
+  <desc id="desc">Круглый аватар с инициалами КА</desc>
+  <circle cx="160" cy="160" r="152" fill="#f8c85d" stroke="#f06449" stroke-width="16"/>
+  <text x="160" y="190" fill="#182b2b" font-family="Space Grotesk, Arial, sans-serif" font-size="112" font-weight="700" text-anchor="middle">КА</text>
+</svg>
